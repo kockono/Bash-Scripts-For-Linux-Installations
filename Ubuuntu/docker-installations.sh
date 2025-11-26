@@ -1,3 +1,12 @@
+#!/bin/bash
+
+# ===== Colores =====
+GREEN="\e[32m"
+BLUE="\e[34m"
+RED="\e[31m"
+RESET="\e[0m"
+
+
 # ===== Instalación de Docker =====
 echo -e "${BLUE}=== Actualizando sistema... ===${RESET}"
 sudo apt update -y
